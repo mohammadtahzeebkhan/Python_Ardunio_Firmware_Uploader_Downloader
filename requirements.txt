@@ -1,0 +1,9 @@
+# Runtime dependencies -- required to run "python main.py"
+ttkbootstrap>=1.10
+Pillow>=10.0
+pyserial>=3.5
+esptool>=5.0
+
+# Build-only dependency -- required to build main.exe / esptool_helper.exe
+# via "python -m PyInstaller main.spec". Not needed to just run the app.
+pyinstaller>=6.0

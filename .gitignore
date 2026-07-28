@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller build output (regenerate via: python -m PyInstaller main.spec)
+build/
+dist/
+
+# Inno Setup installer output (regenerate via: ISCC.exe installer.iss)
+installer_output/
+
+# Misc
+run_stdout.log

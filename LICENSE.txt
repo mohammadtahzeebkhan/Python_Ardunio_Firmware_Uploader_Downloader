@@ -1,0 +1,64 @@
+END-USER LICENSE AGREEMENT
+Arduino & ESP8266 Firmware Uploader & Downloader
+Copyright (c) Mohammad Tahzeeb Khan. All rights reserved.
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING THIS SOFTWARE.
+By clicking "I Accept" during installation, or by installing, copying, or
+otherwise using this software, you agree to be bound by the terms of this
+agreement. If you do not agree to these terms, do not install or use the
+software.
+
+1. LICENSE GRANT
+   You are granted a free, non-exclusive, non-transferable license to
+   install and use this software for personal, educational, or commercial
+   purposes.
+
+2. WHAT THIS SOFTWARE DOES
+   This software flashes and reads firmware on connected ESP8266,
+   Arduino Uno, and Arduino Mega 2560 devices over a serial (COM) port,
+   using the third-party tools esptool and avrdude. It also provides an
+   optional serial monitor and basic device-identification tools.
+
+3. NO WARRANTY
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT. THE AUTHOR MAKES NO GUARANTEE THAT THE SOFTWARE
+   WILL BE ERROR-FREE OR THAT IT WILL FUNCTION CORRECTLY WITH ANY
+   PARTICULAR DEVICE, FIRMWARE FILE, OR HARDWARE CONFIGURATION.
+
+4. ASSUMPTION OF RISK -- FLASHING HARDWARE IS INHERENTLY RISKY
+   Writing firmware to a microcontroller can fail for reasons outside
+   this software's control (a bad USB cable, power loss mid-write, a
+   corrupt or incompatible firmware file, wrong board settings, and so
+   on). A failed or interrupted flash can leave a device unable to boot
+   ("bricked"), and in that state it may require additional hardware or
+   technical steps to recover. Reading firmware off a device or writing
+   protective settings to it can also overwrite existing data or affect
+   the device's normal operation. By using this software, you accept
+   these risks and understand that:
+     - You are responsible for verifying the correct board, port, and
+       firmware file before flashing.
+     - You are responsible for backing up any firmware or data you care
+       about before writing to a device.
+     - The author is not responsible for damaged, bricked, or
+       malfunctioning hardware, or for lost data, resulting from use of
+       this software.
+
+5. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHOR
+   BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR
+   CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGED
+   HARDWARE, LOST DATA, OR LOST PROFITS) ARISING OUT OF OR IN CONNECTION
+   WITH THE USE OR INABILITY TO USE THIS SOFTWARE, EVEN IF ADVISED OF
+   THE POSSIBILITY OF SUCH DAMAGES.
+
+6. THIRD-PARTY COMPONENTS
+   This software bundles or relies on third-party tools, including
+   esptool (Espressif Systems, GPL-2.0) and, where present on your
+   system, avrdude (avrdude project, GPL-2.0). These retain their own
+   licenses; this agreement does not alter or replace them.
+
+7. ACCEPTANCE
+   Continuing installation constitutes acceptance of this agreement.
+   If you do not accept these terms, cancel the installation now.
